@@ -1,0 +1,8 @@
+<h2>crud</h2>
+<button (click)="openDialog('add')">add data</button>
+<ul>
+    <li *ngFor="let item of dataList">{{ item.name }} - {{ item.email }}
+        <button (click)="update(item);openDialog('update')">update</button>
+        <button (click)="update(item);openDialog('delete')">delete</button>
+    </li>
+</ul>
