@@ -10,8 +10,8 @@ const client = new cassandra.Client({
         secureConnectBundle: "./secure-connect-demodb.zip",
     },
     credentials: {
-        username: "AmrdCFnQOMPMUJBEkTksDtto",
-        password: "R_rbvuc9ah6AO,aUEplUFa_OWWemWA.h,nE9S9mNjqQoDZa6Tl5qua7g29qAF3r0KoMR,PStn2gSW6Og2JadbYx72pkqO4PCyT+ULLyW.B31pM+H,Wh8YPTEFgeLCm1R",
+        username: "",
+        password: "",
     },
 });
 
